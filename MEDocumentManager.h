@@ -6,6 +6,8 @@
 //  Copyright (c) 2013 Ingo Wiederoder. All rights reserved.
 //
 
+#define DOCUMENTNAME
+
 #import <Foundation/Foundation.h>
 
 @protocol MEDocumentManagerDelegate <NSObject>
