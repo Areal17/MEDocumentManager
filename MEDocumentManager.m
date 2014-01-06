@@ -35,7 +35,7 @@
 {
     if (_dbDocument) return _dbDocument;
     NSURL *url = [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
-    url = [url URLByAppendingPathComponent:DBNAME];
+    url = [url URLByAppendingPathComponent:DOCUMENTNAME];
     _dbDocument = [[UIManagedDocument alloc] initWithFileURL:url];
     if ([_dbDocument documentState] == UIDocumentStateClosed) {
         [_dbDocument openWithCompletionHandler:^(BOOL success) {
