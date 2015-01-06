@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Ingo Wiederoder. All rights reserved.
 //
 
-#define DOCUMENTNAME
+#define DOCUMENTNAME @"managedDoc"
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @protocol MEDocumentManagerDelegate <NSObject>
 
